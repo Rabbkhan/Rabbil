@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
+import ScrollToTopButton from './ScrollToTopButton';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -105,7 +106,7 @@ function Footer() {
         <Copyright>
           &copy; 2023 Rabbil Khan. All rights reserved.
         </Copyright>
-
+<ScrollToTopButton/>
       </FooterWrapper>
     </FooterContainer>
   );
