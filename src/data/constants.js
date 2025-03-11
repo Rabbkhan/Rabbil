@@ -1,10 +1,6 @@
 export const Bio = {
   name: "Rabbil Khan",
-  roles: [
-    "Full Stack Developer",
-    "UI/UX Designer",
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Rabbkhan",
@@ -80,7 +76,8 @@ export const skills = [
       },
       {
         name: "PHP",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png",
       },
       // {
       //   name: "Python",
@@ -196,21 +193,41 @@ export const experiences = [
       "expressjs",
       "github",
       "mongodb",
-     
     ],
     doc: "https://cdn-images.imagevenue.com/af/1b/db/ME17H18G_o.jpg",
   },
   {
     id: 0,
     img: "https://dcplindia.co.in/images/dcpl.png",
-    role: "Frontend Engineer ",
+    role: "software Engineer ",
     company: "DCPL",
-    date: "June oct 2022 - Present",
-    desc: "Working on the frontend of the web application using  html,css,bootstrap,javascript, ReactJS, php, mysql ",
+    date: "06 oct 2022 - 2024 24 April",
+    desc: "Working on the frontend and backend of the web application using  html,css,bootstrap,javascript, ReactJS, nodejs, mysql, mongodb,tailwindccss ",
     skills: [
       "ReactJS",
       "Redux",
-      "php",
+      "nodejs",
+      "tailwindcss",
+      "Material UI",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/imagegallery-8c479.appspot.com/o/images%2Ftsmanagement.png?alt=media&token=c0c7cb26-d893-4df8-94b6-f69cb9520549",
+    role: "Founding Engineer ",
+    company: "Ts Management service",
+    date: "05 May  2024 - 2025 10 JAN",
+    desc: "Handle Technical Part",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "nodejs",
+      "tailwindcss",
       "Material UI",
       "Bootstrap",
       "HTML",
@@ -319,18 +336,9 @@ export const projects = [
     id: 9,
     title: "Github User Search",
     date: "jan 2024 - Jan 2024",
-    description:
-      "Github user Search Web App using Github api",
-    image:
-      "https://cdn-images.imagevenue.com/a6/f4/4d/ME17H11F_o.png",
-    tags: [
-      "React js",
-      "Chakra ui",
-      "vercel",
-      "github api",
-      
-      
-    ],
+    description: "Github user Search Web App using Github api",
+    image: "https://cdn-images.imagevenue.com/a6/f4/4d/ME17H11F_o.png",
+    tags: ["React js", "Chakra ui", "vercel", "github api"],
     category: "web app",
     github: "https://github.com/Rabbkhan/github-info-webapp",
     webapp: "https://github-user-info-psi.vercel.app/",
@@ -341,8 +349,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Blog Hub a blog website where admin can post his/her blog from admin panel ",
-    image:
-      "https://cdn-images.imagevenue.com/95/1c/7f/ME17GVEX_o.png",
+    image: "https://cdn-images.imagevenue.com/95/1c/7f/ME17GVEX_o.png",
     tags: [
       "React js",
       "Tailwidcss",
@@ -350,7 +357,6 @@ export const projects = [
       "vercel",
       "uuid",
       "context api",
-      
     ],
     category: "web app",
     github: "https://github.com/Rabbkhan/blogapp-firebase",
@@ -362,9 +368,14 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "Developed a crypto app where we used api to fetch the data its a API base projects",
-    image:
-      "https://cdn-images.imagevenue.com/b8/de/3a/ME17GVEU_o.png",
-    tags: ["vite/React Js", "Rest api", "chakra ui", "react router dom", "context api"],
+    image: "https://cdn-images.imagevenue.com/b8/de/3a/ME17GVEU_o.png",
+    tags: [
+      "vite/React Js",
+      "Rest api",
+      "chakra ui",
+      "react router dom",
+      "context api",
+    ],
     category: "web app",
     github: "https://github.com/Rabbkhan/crypto-web-app",
     webapp: "https://primecrypto-webapp.vercel.app/",
@@ -375,7 +386,7 @@ export const projects = [
     //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     //     github: "https://github.com/Rabbkhan/",
     //   },
-      
+
     // ],
   },
   {
@@ -384,49 +395,37 @@ export const projects = [
     date: "Oct 2023 - Present",
     description:
       "Designed and developed a Award Winning Website Clone with stunning ui and cool animation",
-    image:
-      "https://cdn-images.imagevenue.com/ed/dd/69/ME17GVET_o.png",
-    tags: [
-      "Javascript",
-      "Html",
-      "Css",
-      "Gsap",
-    
-    ],
+    image: "https://cdn-images.imagevenue.com/ed/dd/69/ME17GVET_o.png",
+    tags: ["Javascript", "Html", "Css", "Gsap"],
     category: "web app",
     github: "https://github.com/Rabbkhan/Animation-website",
     webapp: "https://awardwinning-web-clone.netlify.app/",
   },
- 
- 
+
   {
     id: 10,
     title: "Landing Page",
     date: "Jun 2023 - Jul 2023",
-    description:
-      "Ui/ux design for company landing page",
-    image:
-      "https://cdn-images.imagevenue.com/c3/44/e7/ME17GV7D_o.png",
+    description: "Ui/ux design for company landing page",
+    image: "https://cdn-images.imagevenue.com/c3/44/e7/ME17GV7D_o.png",
     tags: ["Figma"],
     category: "ui/ux",
     // github: "https://github.com/Rabbkhan/Job-finder-App",
-    webapp: "https://www.figma.com/file/GhafROlYEIjrnpOuxVD60M/website-Ui?type=design&node-id=0%3A1&mode=design&t=dEqS4941vNxi4eGC-1",
+    webapp:
+      "https://www.figma.com/file/GhafROlYEIjrnpOuxVD60M/website-Ui?type=design&node-id=0%3A1&mode=design&t=dEqS4941vNxi4eGC-1",
   },
   {
     id: 15,
     title: "Google classroom",
     date: "Jun 2023 - Jul 2023",
-    description:
-      "Ui/ux design for Google Class Room",
-    image:
-      "https://cdn-images.imagevenue.com/07/a8/07/ME17GV8M_o.png",
+    description: "Ui/ux design for Google Class Room",
+    image: "https://cdn-images.imagevenue.com/07/a8/07/ME17GV8M_o.png",
     tags: ["Figma"],
     category: "ui/ux",
     // github: "https://github.com/Rabbkhan/Job-finder-App",
-    webapp: "https://www.figma.com/file/28ATMODSBwioUVbIoZ4JuX/Smart-Classroom?type=design&node-id=0%3A1&mode=design&t=07ny072tNB6JMoEL-1",
+    webapp:
+      "https://www.figma.com/file/28ATMODSBwioUVbIoZ4JuX/Smart-Classroom?type=design&node-id=0%3A1&mode=design&t=07ny072tNB6JMoEL-1",
   },
-  
-
 
   // {
   //   id: 4,
