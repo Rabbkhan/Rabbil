@@ -218,7 +218,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/imagegallery-8c479.appspot.com/o/images%2Ftsmanagement.png?alt=media&token=c0c7cb26-d893-4df8-94b6-f69cb9520549",
+    img: "/tsmanagement.png",
     role: "Founding Engineer ",
     company: "Ts Management service",
     date: "05 May  2024 - 2025 10 JAN",
@@ -333,15 +333,81 @@ export const education = [
 
 export const projects = [
   {
+    id: 11,
+    title: "Article Summarizer AI",
+    date: "dec 2024",
+    description:
+      "Our AI Article Summarizer simplifies long articles into concise, easy-to-read summaries in seconds! Whether you're a student, researcher, or professional, get the key insights without reading the entire text",
+    image: "/aticlesum.png",
+    tags: ["React js", "Tailwidcss", "restapi", "vercel", "context api"],
+    category: "web app",
+    // github: "https://github.com/Rabbkhan/blogapp-firebase",
+    webapp: "https://sumz-rosy.vercel.app",
+  },
+
+  {
+    id: 1,
+    title: "khanestate",
+    date: "feb 2025",
+    description:
+      "Designed and developed a Estate app where property owner list his property and manage it also ",
+    image: "/estate.png",
+    tags: [
+      "React",
+      "Node",
+      "Express",
+      "Mongodb",
+      "jsonwebtoken",
+      "reduxtoolkit",
+      "firebase",
+      "tailwindcss",
+      "react-router-dom",
+    ],
+    category: "web app",
+    github: "https://github.com/Rabbkhan/mern-estate-main",
+    webapp: "https://khanestate.onrender.com",
+  },
+
+  {
+    id: 0,
+    title: "primecrypto",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Developed a crypto app where we used api to fetch the data its a API base projects",
+    image: "/crypto.png",
+    tags: [
+      "vite/React Js",
+      "Rest api",
+      "chakra ui",
+      "react router dom",
+      "context api",
+    ],
+    category: "web app",
+    github: "https://github.com/Rabbkhan/crypto-web-app",
+    webapp: "https://primecrypto-webapp.vercel.app/",
+  },
+
+  {
     id: 9,
     title: "Github User Search",
     date: "jan 2024 - Jan 2024",
     description: "Github user Search Web App using Github api",
-    image: "https://cdn-images.imagevenue.com/a6/f4/4d/ME17H11F_o.png",
+    image: "/githubusersearch.png",
     tags: ["React js", "Chakra ui", "vercel", "github api"],
     category: "web app",
     github: "https://github.com/Rabbkhan/github-info-webapp",
     webapp: "https://github-user-info-psi.vercel.app/",
+  },
+  {
+    id: 13,
+    title: "React Admin Panel UI",
+    date: "jan 2025",
+    description: "React Admin panel UI Design",
+    image: "/react-admin.png",
+    tags: ["React js", "scss", "material ui", "react router dom"],
+    category: "web app",
+    github: "https://github.com/Rabbkhan/react-admin-dashboard",
+    webapp: "https://react-admin-dashboard-phi-orpin.vercel.app",
   },
   {
     id: 10,
@@ -349,7 +415,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Blog Hub a blog website where admin can post his/her blog from admin panel ",
-    image: "https://cdn-images.imagevenue.com/95/1c/7f/ME17GVEX_o.png",
+    image: "/blog.png",
     tags: [
       "React js",
       "Tailwidcss",
@@ -362,57 +428,30 @@ export const projects = [
     github: "https://github.com/Rabbkhan/blogapp-firebase",
     webapp: "https://blogapp-firebase.vercel.app/",
   },
-  {
-    id: 0,
-    title: "primecrypto",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a crypto app where we used api to fetch the data its a API base projects",
-    image: "https://cdn-images.imagevenue.com/b8/de/3a/ME17GVEU_o.png",
-    tags: [
-      "vite/React Js",
-      "Rest api",
-      "chakra ui",
-      "react router dom",
-      "context api",
-    ],
-    category: "web app",
-    github: "https://github.com/Rabbkhan/crypto-web-app",
-    webapp: "https://primecrypto-webapp.vercel.app/",
-    // member: [
-    //   {
-    //     name: "Rabbil Khan",
-    //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //     github: "https://github.com/Rabbkhan/",
-    //   },
 
-    // ],
-  },
+  // {
+  //   id: 25,
+  //   title: "Notes Taking App",
+  //   date: "Jun 2023 - Jul 2023",
+  //   description:
+  //     "Notes taking app can help user take notes with saving links edit and delete functionality ",
+  //   image: "/notesaapp.png",
+  //   tags: ["Reactjs", "nodejs", "express", "mongodb", "jwt"],
+  //   category: "web app",
+  //   // github: "https://github.com/Rabbkhan/Job-finder-App",
+  //   webapp: "noteswebapp32.netlify.app/dashboard",
+  // },
   {
-    id: 1,
-    title: "Award Winning  Web Clone",
-    date: "Oct 2023 - Present",
+    id: 35,
+    title: " sharefile",
+    date: "dec 2024",
     description:
-      "Designed and developed a Award Winning Website Clone with stunning ui and cool animation",
-    image: "https://cdn-images.imagevenue.com/ed/dd/69/ME17GVET_o.png",
-    tags: ["Javascript", "Html", "Css", "Gsap"],
+      "File sharing web app , where user can upload files  and share the linkor either send link to the email also  ",
+    image: "/filesharing.png",
+    tags: ["Reactjs", "nodejs", "express", "nodemailer", "ejs"],
     category: "web app",
-    github: "https://github.com/Rabbkhan/Animation-website",
-    webapp: "https://awardwinning-web-clone.netlify.app/",
-  },
-
-  {
-    id: 10,
-    title: "Landing Page",
-    date: "Jun 2023 - Jul 2023",
-    description: "Ui/ux design for company landing page",
-    image: "https://cdn-images.imagevenue.com/c3/44/e7/ME17GV7D_o.png",
-    tags: ["Figma"],
-    category: "ui/ux",
-    // github: "https://github.com/Rabbkhan/Job-finder-App",
-    webapp:
-      "https://www.figma.com/file/GhafROlYEIjrnpOuxVD60M/website-Ui?type=design&node-id=0%3A1&mode=design&t=dEqS4941vNxi4eGC-1",
+    github: "https://github.com/Rabbkhan/file-sharing-app-frontend",
+    webapp: "https://file-sharing-beta.vercel.app",
   },
   {
     id: 15,
